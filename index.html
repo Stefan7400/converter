@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+    <body>
+        <h1>Converter</h1>
+        <select id="baseselector" name="Base">
+            <option value="2">2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option value="8">8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option value="12">12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option value="16">16</option>
+        </select>
+        <input class="rcorners2" id="input" onkeydown="checkInput(event)">
+        <button onclick="convert()">Convert</button>
+
+        <div id="output">
+            <div>
+                <label>Base 2:</label>
+                <label id="binaryOutput"></label>
+            </div>
+            <div>
+                <label>Base 3:</label>
+                <label id="threeBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 4:</label>
+                <label id="fourBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 5:</label>
+                <label id="fiveBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 6:</label>
+                <label id="sexBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 7:</label>
+                <label id="sevenBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 8:</label>
+                <label id="octetBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 9:</label>
+                <label id="nineBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 10:</label>
+                <label id="tenBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 11:</label>
+                <label id="elevenBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 12:</label>
+                <label id="twelveBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 13:</label>
+                <label id="thirteenBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 14:</label>
+                <label id="fourtheenBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 15:</label>
+                <label id="FifteenBaseOutput"></label>
+            </div>
+            <div>
+                <label>Base 16:</label>
+                <label id="hexaBasteOutput"></label>
+            </div>
+        </div>
+
+        <script src="indexscript.js"></script>
+    </body>
+</html>
