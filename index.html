@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Converter</title>
+    <title>Binary-Converter</title>
     <link rel="stylesheet" href="index.css">
 </head>
     <body>
         <h1>Converter</h1>
+        <button onclick="window.location.href = 'howtoconvert.html'">How to convert?</button>
+
         <select id="baseselector" name="Base">
             <option value="2">2</option>
             <option>3</option>
@@ -25,7 +27,7 @@
             <option value="16">16</option>
         </select>
         <input class="rcorners2" id="input" onkeydown="checkInput(event)">
-        <button onclick="convert()">Convert</button>
+        <button id="convertBtn" onclick="convert()">Convert</button>
 
         <div id="output">
             <div>
@@ -46,7 +48,7 @@
             </div>
             <div>
                 <label>Base 6:</label>
-                <label id="sexBaseOutput"></label>
+                <label id="sixBaseOutput"></label>
             </div>
             <div>
                 <label>Base 7:</label>
@@ -82,11 +84,15 @@
             </div>
             <div>
                 <label>Base 15:</label>
-                <label id="FifteenBaseOutput"></label>
+                <label id="fifteenBaseOutput"></label>
             </div>
             <div>
                 <label>Base 16:</label>
                 <label id="hexaBasteOutput"></label>
+            </div>
+            <div>
+                <label>Two Complement</label>
+                <label id="twoComplement"></label>
             </div>
         </div>
 

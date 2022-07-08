@@ -6,8 +6,22 @@ body {
     margin-top: 30px;
 }
 
+#baseselector {
+    border-radius: 25px;
+    border: 2px solid #2154ad;
+}
+
 .rcorners2 {
     border-radius: 25px;
     border: 2px solid #2154ad;
     width: 300px;
+}
+
+#output > div {
+    margin-top: 10px;
+}
+
+#convertBtn {
+    border-radius: 25px;
+    border: 2px solid #2154ad;
 }
